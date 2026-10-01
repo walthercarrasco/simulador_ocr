@@ -1,0 +1,15 @@
+{
+  "name": "simulador-ocr",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Simulador de lectura automática del DNI hondureño con la cámara (OCR local con Tesseract.js).",
+  "scripts": {
+    "start": "serve --no-clipboard public"
+  },
+  "dependencies": {
+    "serve": "^14.2.4"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
